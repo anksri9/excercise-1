@@ -5,5 +5,3 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
-    - name: ping test
-      ping:
