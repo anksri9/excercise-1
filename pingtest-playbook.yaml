@@ -1,0 +1,8 @@
+  name: check connectivity to target servers
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+    - name: ping test
+      ping:
