@@ -1,0 +1,10 @@
+- 
+  hosts: all
+  name: "check connectivity to target servers"
+  tasks: 
+    - 
+      #docker_compose: 
+      #build: false
+        #project_src: /home/oenganshor/microservices-demo/deploy/docker-compose
+      name: "start sockshops services"
+      command: sudo docker-compose -f /home/oenganshor/microservices-demo/deploy/docker-compose/docker-compose.yml up -d
